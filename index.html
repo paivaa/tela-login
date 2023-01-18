@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SIM - Externo</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/15181efa86.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="icon" href="favicon-32x32.png" />
+  </head>
+
+  <body>
+    <div id="preloader">
+      <div id="inner" class="inner">
+        <div class="bolas">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+
+    <section class="container">
+      <div class="columns is-multiline">
+        <div class="column is-8 is-offset-2 register">
+          <div class="columns">
+            <!-- <div class="column left"> -->
+            <!-- <h1 class="title is-1">S.I.M</h1> -->
+            <!-- <h1 class="subtitle colored is-1 has-text-centered">Login</h1> -->
+            <!--<p class="has-text-centered">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis ex deleniti aliquam tempora libero excepturi vero
+                soluta odio optio sed.
+              </p> -->
+            <!-- <img src="https://picsum.photos/400/700" alt="random image" /> -->
+            <!-- </div> -->
+            <div class="column right has-text-centered">
+              <img
+                src="https://freesvg.org/img/logo-generic.png"
+                width="250px"
+              />
+              <form method="post">
+                <div class="field">
+                  <div class="control">
+                    <input
+                      class="input is-medium is-rounded"
+                      type="email"
+                      placeholder="email@example.com"
+                      id="email"
+                      name="email"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="field">
+                  <div class="control">
+                    <input
+                      class="input is-medium is-rounded"
+                      type="password"
+                      id="senha"
+                      name="senha"
+                      placeholder="**********"
+                      autocomplete="current-password"
+                      required
+                    />
+                  </div>
+                </div>
+                <br />
+                <button
+                  class="button is-block is-fullwidth is-primary is-medium is-rounded"
+                  type="submit"
+                  id="enviar_button"
+                >
+                  Entrar
+                </button>
+              </form>
+              <br />
+              <nav class="level">
+                <div class="level-item has-text-centered">
+                  <div>
+                    <a href="#">Esqueceu sua senha?</a>
+                  </div>
+                </div>
+                <div class="level-item has-text-centered">
+                  <div>
+                    <a href="#">Crie sua conta</a>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="column is-8 is-offset-2">
+          <br />
+          <nav class="level">
+            <div class="level-left">
+              <div class="level-item">
+                <a
+                  href="https://www.facebook.com/consultoria.healthcare/"
+                  target="_blank"
+                >
+                  <span class="icon">
+                    <i class="fab fa-facebook"></i>
+                  </span>
+                  &emsp;
+                </a>
+                <a
+                  href="https://www.instagram.com/hcsolucoesmedicas/"
+                  target="_blank"
+                >
+                  <span class="icon">
+                    <i class="fab fa-instagram"></i>
+                  </span>
+                  &emsp;
+                </a>
+                <a
+                  href="https://api.whatsapp.com/send?phone=5591991707310"
+                  target="_blank"
+                >
+                  <span class="icon">
+                    <i class="fab fa-whatsapp"></i>
+                  </span>
+                  &emsp;
+                </a>
+                <a href="mailto:SAC@healthcare.com..br" target="_blank">
+                  <span class="icon">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="level-right">
+              <small class="level-item" style="color: var(--textLight)">
+                &copy; 2022 - Fake Company. Todos os direitos Reservados.
+              </small>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </section>
+    <script src="./script.js"></script>
+    <script
+      type="text/javascript"
+      src="https://npmcdn.com/parse/dist/parse.min.js"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  </body>
+</html>
